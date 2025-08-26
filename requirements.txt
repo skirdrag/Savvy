@@ -1,0 +1,7 @@
+Flask>=2.0
+pywebview>=4.0
+requests
+beautifulsoup4
+
+pyinstaller --name "Blocchy" --onefile --windowed --add-data "templates;templates" --add-data "static;static" --icon="icon.ico" main.py
+
